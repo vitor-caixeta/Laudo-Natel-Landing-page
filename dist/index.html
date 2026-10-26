@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="pt-BR" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Consultoria jurídica de alta qualidade para pessoas, famílias e empresas." />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Natel Advocacia — Consultoria jurídica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: { extend: {
+          colors: { ink: "#0a0a0a", paper: "#ffffff", smoke: "#696969" },
+          fontFamily: { display: ["Bodoni Moda", "Didot", "serif"], sans: ["DM Sans", "Arial", "sans-serif"] }
+        }}
+      };
+    </script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg-paper font-sans text-ink antialiased">
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <header class="site-header" data-header>
+      <div class="header-inner">
+        <span class="mobile-wordmark" aria-hidden="true">Natel Advocacia</span>
+        <nav class="desktop-nav" aria-label="Navegação principal">
+          <a href="#inicio">Início</a><a href="#sobre">Sobre</a><a href="#areas">Áreas</a><a href="#contato">Contato</a>
+        </nav>
+        <button class="header-cta" type="button">Entre em contato <span aria-hidden="true">→</span></button>
+        <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle><span></span><span></span></button>
+      </div>
+      <nav class="mobile-menu" id="mobile-menu" aria-label="Navegação móvel" data-mobile-menu>
+        <a href="#inicio">Início</a><a href="#sobre">Sobre</a><a href="#areas">Áreas</a><a href="#contato">Contato</a>
+        <button type="button">Entre em contato <span aria-hidden="true">→</span></button>
+      </nav>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero page-width" id="inicio" aria-labelledby="hero-title">
+        <h1 id="hero-title" class="reveal">Consultoria jurídica<br />de alta qualidade</h1>
+        <div class="hero-composition reveal">
+          <div class="hero-watermark" aria-hidden="true">ADVOGADO</div>
+          <div class="hero-left-copy"><span class="down-arrow" aria-hidden="true">↓</span><p>Advogados especialistas em família e divórcio.</p></div>
+          <img class="justice-statue" src="images/lady-justice.png" alt="Estátua de bronze da Justiça segurando balança e espada" width="1024" height="1536" fetchpriority="high" />
+          <img class="hero-gavel" src="images/gavel.png" alt="Martelo de juiz em madeira escura" width="1536" height="1024" fetchpriority="high" />
+          <p class="hero-right-copy">A lei de família é tudo o que fazemos, então, seja qual for a sua situação, ela estará familiarizada para nós. Buscamos ampliar seu alcance.</p>
+        </div>
+      </section>
+
+      <section class="areas page-width" id="areas" aria-labelledby="areas-title">
+        <div class="center-heading reveal">
+          <h2 id="areas-title">A área em que atuamos<br />no direito</h2>
+          <p>Oferecemos uma ampla variedade de serviços aos nossos clientes e nos esforçamos ao máximo para garantir que seu problema seja resolvido.</p>
+        </div>
+        <div class="areas-grid">
+          <article class="area-card reveal">
+            <div class="area-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="16" cy="10" r="5" /><path d="M7 27c0-6 3.7-10 9-10s9 4 9 10" /></svg></div>
+            <h3>Direito Empresarial</h3><p>Existem vários tipos de normas empresariais que variam de acordo com o único operador.</p>
+          </article>
+          <article class="area-card reveal">
+            <div class="area-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M4 13L16 5l12 8H4Z" /><path d="M7 15h18M9 15v9M14 15v9M19 15v9M24 15v9M5 27h22" /></svg></div>
+            <h3>Direito Penal</h3><p>O direito penal é o conjunto de normas que trata do crime. O Direito penal contará com o funcionamento perfeito.</p>
+          </article>
+          <article class="area-card reveal">
+            <div class="area-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="16" cy="9" r="4" /><circle cx="8" cy="13" r="3" /><circle cx="24" cy="13" r="3" /><path d="M9 27c0-6 2.8-10 7-10s7 4 7 10M2 26c0-4.5 2-8 6-8M30 26c0-4.5-2-8-6-8" /></svg></div>
+            <h3>Direito de Família</h3><p>Os advogados de família são especializados em questões de família e interesses que afetam as relações familiares.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="lawyers page-width" id="sobre" aria-labelledby="sobre-title">
+        <div class="center-heading lawyers-heading reveal"><h2 id="sobre-title">Conheça nosso advogado<br />talentoso e qualificado</h2></div>
+        <div class="lawyer-grid">
+          <div class="lawyer-copy reveal">
+            <h3>Advogado principal<br />Advogado verificado</h3>
+            <p>Oferecemos serviços jurídicos remotos de primeira classe, respaldados por nossa dedicação à excelência e nossa experiência trabalhando com empresas e pessoas de diversos setores.</p>
+            <a href="#contato">Saiba mais <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="lawyer-photo-wrap reveal">
+            <figure class="lawyer-photo"><img src="images/DRN09982.jpg" alt="Advogado responsável pelo escritório" width="719" height="958" loading="lazy" /></figure>
+            <div class="lawyer-badge badge-top"><span class="badge-ring">90%</span><small>Satisfação jurídica</small></div>
+            <div class="lawyer-badge badge-right"><span class="badge-ring">98%</span><small>Clientes satisfeitos</small></div>
+            <div class="lawyer-badge badge-bottom"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M4 13L16 5l12 8H4ZM7 15h18M9 15v9M14 15v9M19 15v9M24 15v9M5 27h22" /></svg><strong>50</strong><small>Casos especializados</small></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="benefits" aria-labelledby="beneficios-title">
+        <div class="benefits-grid page-width">
+          <div class="benefits-intro reveal">
+            <h2 id="beneficios-title">Quais benefícios<br />você terá conosco?</h2>
+            <p>Oferecemos serviços de alta qualidade, respaldados por nossa experiência e compromisso para alcançar os melhores resultados.</p>
+            <button type="button">Encontre advogados <span aria-hidden="true">→</span></button>
+          </div>
+          <figure class="benefits-photo reveal"><img src="images/DRN09982.jpg" alt="Advogado em ambiente profissional" width="719" height="958" loading="lazy" /></figure>
+          <div class="benefits-list">
+            <article class="reveal"><h3>Representação jurídica</h3><p>Aconselhamento jurídico profissional e experiente para pessoas e pequenas e grandes empresas.</p></article>
+            <article class="reveal"><h3>Alegações</h3><p>Tratamos todas as alegações com privacidade em qualquer situação.</p></article>
+            <article class="reveal"><h3>Suporte</h3><p>Nosso suporte ao cliente ajuda você a alcançar o sucesso jurídico.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact page-width" id="contato" aria-labelledby="contato-title">
+        <h2 id="contato-title" class="reveal">Precisa de um advogado?</h2>
+        <div class="contact-row reveal"><button type="button">Contate-nos <span aria-hidden="true">→</span></button><span class="contact-dash" aria-hidden="true"></span><p>Vamos conversar</p></div>
+      </section>
+    </main>
+
+    <footer><div class="footer-inner page-width"><nav aria-label="Navegação do rodapé"><a href="#inicio">Início</a><a href="#sobre">Projetos</a><a href="#areas">Blog</a><a href="#contato">Contatos</a></nav><p>© <span data-year></span> Natel. Todos os direitos reservados.</p></div></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
