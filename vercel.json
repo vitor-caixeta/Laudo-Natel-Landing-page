@@ -1,0 +1,12 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": null,
+  "installCommand": "",
+  "outputDirectory": "web",
+  "functions": {
+    "api/noticias.js": {
+      "maxDuration": 10
+    }
+  }
+}
